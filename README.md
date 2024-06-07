@@ -8,7 +8,7 @@
 ------------
 
 ## Usage
-Excecute start.bat and just wait until Web UI opens! 
+Execute start.bat and just wait until Web UI opens! 
 You can configure models (not everything) if you want to experiment.
 
 ## Preview
