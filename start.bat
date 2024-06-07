@@ -12,6 +12,12 @@ set "WEBUI_SCRIPT=webui.py"
 if exist "%VIRTUALENV_DIR%" (
     echo Virtualenv directory exists. Skipping dependency installation.
 ) else (
+    pip install virtualenv
+    if %errorlevel% neq 0 (
+        echo Virtualenv installation failed. Concider installing it manually.
+        pause>nul
+        exit /B 1
+    )
     echo Creating virtualenv...
     python -m virtualenv "%VIRTUALENV_DIR%"
     echo Installing dependencies...
