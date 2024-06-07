@@ -20,4 +20,3 @@ pytorch-lightning
 onnxruntime-gpu
 
 gradio
-webbrowser
