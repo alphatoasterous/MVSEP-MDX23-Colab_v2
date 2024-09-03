@@ -2,6 +2,7 @@ import gradio as gr
 import inference
 import os
 from pathlib import Path
+import webbrowser as web
 
 
 def path_output(input_file, output_folder, vocals_only, format):
@@ -327,9 +328,9 @@ def main():
 
 
             return path_output(input_audio, output_folder, True if separation_mode == 'Vocal/Instrumental' else False ,output_format)
-
+    web.open('http://127.0.0.1:7860/')
     app.launch()
-
+    
 
 if __name__ == "__main__":
     main()

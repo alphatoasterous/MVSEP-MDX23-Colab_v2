@@ -1,9 +1,24 @@
 
 
-## MVSep-MDX23 Colab Fork v2.4 на русском языке
+# MVSep-MDX23 Gradio Fork v2.4 🐭
 
-Адаптация алгоритма MVSep-MDX23 для Google Colab:
-https://colab.research.google.com/github/alphatoasterous/MVSEP-MDX23-Colab_v2/blob/v2.4/MVSep-MDX23-Colab-Russian.ipynb
+
+#####  Gradio web interface for MVSep-MDX23
+
+------------
+
+## Usage
+Execute start.bat and just wait until Web UI opens! 
+You can configure models (not everything) if you want to experiment.
+
+## Preview
+![Preview](https://i.imgur.com/78lVl4L.jpeg "Preview")
+
+
+------------
+
+
+
 
 ## Original README
 
@@ -80,4 +95,3 @@ Recent changes:
 ---
 
 Original work by ZFTurbo/MVSep : https://github.com/ZFTurbo/MVSEP-MDX23-music-separation-model
-
